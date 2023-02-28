@@ -1,5 +1,5 @@
 main {
-    width: 1300px;
+    width: 1200px;
     margin: 0 auto;
 
     .col-7 {
@@ -22,6 +22,7 @@ main {
                 font-weight: bold;
                 font-family: $fontDos;
                 padding: 17px 29px;
+                text-decoration: none;
             }
 
             & a:hover {
@@ -29,9 +30,6 @@ main {
                 text-decoration: none;
             }
 
-            & p {
-                line-height: 33px;
-            }
         }
 
 
@@ -40,7 +38,6 @@ main {
     }
 
     .col-5 {
-        max-width: 450px;
 
         & h3,
         h4 {
@@ -53,6 +50,7 @@ main {
 
             & li {
                 border-bottom: 1px solid #e1e1e1;
+                max-width: 370px;
 
                 & p {
 
@@ -72,6 +70,7 @@ main {
                     text-decoration: none;
                     font-weight: bold;
                     font-family: $fontDos;
+                    
                 }
             }
 

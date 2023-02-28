@@ -5,10 +5,9 @@ header {
     background-size: cover;
     height: 600px;
     color: white;
-    
 
     & .head {
-        width: 1300px;
+        width: 1200px;
         margin: 0 auto;
 
         & .headUno {
@@ -26,15 +25,12 @@ header {
                 gap: 20px;
             }
 
-
-
             & a {
                 font-size: 1.1rem;
                 text-decoration: none;
                 color: white;
             }
         }
-
     }
 
     & .headDos {
@@ -44,7 +40,8 @@ header {
             font-family: $fontDos;
             font-weight: bold;
         }
-        & p{
+
+        & p {
             font-size: medium;
         }
     }
