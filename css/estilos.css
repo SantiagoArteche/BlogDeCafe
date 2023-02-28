@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 2.9rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.9rem;
+}
+
+header {
+  background-image: url(../../img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: white;
+}
+header .head {
+  width: 1300px;
+  margin: 0 auto;
+}
+header .head .headUno h1 {
+  font-family: "PT Sans", sans-serif;
+}
+header .head .headUno h1 span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+header .head .headUno div {
+  gap: 20px;
+}
+header .head .headUno a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+header .headDos {
+  height: 250px;
+}
+header .headDos h2 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+}
+header .headDos p {
+  font-size: medium;
+}/*# sourceMappingURL=estilos.css.map */

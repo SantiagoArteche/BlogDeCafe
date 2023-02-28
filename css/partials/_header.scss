@@ -1,0 +1,50 @@
+header {
+    background-image: url(../../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    
+
+    & .head {
+        width: 1300px;
+        margin: 0 auto;
+
+        & .headUno {
+            & h1 {
+                font-family: $fontDos;
+
+                & span {
+                    font-family: $fontUno;
+                    font-weight: 700;
+                }
+            }
+
+            & div {
+                gap: 20px;
+            }
+
+
+
+            & a {
+                font-size: 1.2rem;
+                text-decoration: none;
+                color: white;
+            }
+        }
+
+    }
+
+    & .headDos {
+        height: 250px;
+
+        & h2 {
+            font-family: $fontDos;
+            font-weight: bold;
+        }
+        & p{
+            font-size: medium;
+        }
+    }
+}
