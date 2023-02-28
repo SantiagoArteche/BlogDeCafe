@@ -1,0 +1,32 @@
+footer {
+
+    background-color: black;
+    .foot {
+        width: 1300px;
+        margin: 0 auto;
+        color: white;
+        padding-bottom: 20px;
+        & h1 {
+            font-family: $fontDos;
+
+            & span {
+                font-family: $fontUno;
+                font-weight: 700;
+            }
+        }
+
+        & div {
+            margin-top: 40px;
+            gap: 20px;
+        }
+
+
+
+        & a {
+            font-size: 1.1rem;
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+}

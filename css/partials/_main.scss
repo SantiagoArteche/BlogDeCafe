@@ -1,0 +1,82 @@
+main {
+    width: 1300px;
+    margin: 0 auto;
+
+    .col-7 {
+
+        & h3,
+        h4 {
+            font-family: $fontDos;
+            font-weight: bold;
+            color: black;
+        }
+
+        .blog {
+            border-bottom: 1px solid #e1e1e1;
+            padding-bottom: 40px;
+
+            & a {
+                background-color: black;
+                color: white;
+                font-size: large;
+                font-weight: bold;
+                font-family: $fontDos;
+                padding: 17px 29px;
+            }
+
+            & a:hover {
+                color: white;
+                text-decoration: none;
+            }
+
+            & p {
+                line-height: 33px;
+            }
+        }
+
+
+
+
+    }
+
+    .col-5 {
+        max-width: 450px;
+
+        & h3,
+        h4 {
+            font-family: $fontDos;
+            font-weight: bold;
+            color: black;
+        }
+
+        & ol {
+
+            & li {
+                border-bottom: 1px solid #e1e1e1;
+
+                & p {
+
+                    font-family: $fontDos;
+                    font-weight: 700;
+                    font-size: 1.2rem;
+                    color: black !important;
+
+                    & span {
+                        font-weight: normal;
+                    }
+                }
+
+                & a {
+                    color: white;
+                    background-color: #784D3C;
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-family: $fontDos;
+                }
+            }
+
+        }
+
+    }
+
+}

@@ -5,17 +5,24 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
-
-h1 {
+* h1 {
   font-size: 2.9rem;
+  font-family: "PT Sans", sans-serif;
 }
-
-h2 {
+* h2 {
   font-size: 2.5rem;
+  font-family: "PT Sans", sans-serif;
 }
-
-h3 {
-  font-size: 1.9rem;
+* h3 {
+  font-size: 2rem;
+  font-family: "PT Sans", sans-serif;
+}
+* h4 {
+  font-size: 1.8rem;
+  font-family: "PT Sans", sans-serif;
+}
+* p {
+  font-family: "Open Sans", sans-serif;
 }
 
 header {
@@ -38,15 +45,16 @@ header .head .headUno h1 span {
   font-weight: 700;
 }
 header .head .headUno div {
+  margin-top: 40px;
   gap: 20px;
 }
 header .head .headUno a {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-decoration: none;
   color: white;
 }
 header .headDos {
-  height: 250px;
+  margin-top: 145px;
 }
 header .headDos h2 {
   font-family: "PT Sans", sans-serif;
@@ -54,4 +62,88 @@ header .headDos h2 {
 }
 header .headDos p {
   font-size: medium;
+}
+
+main {
+  width: 1300px;
+  margin: 0 auto;
+}
+main .col-7 h3,
+main .col-7 h4 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+main .col-7 .blog {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 40px;
+}
+main .col-7 .blog a {
+  background-color: black;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  padding: 17px 29px;
+}
+main .col-7 .blog a:hover {
+  color: white;
+  text-decoration: none;
+}
+main .col-7 .blog p {
+  line-height: 33px;
+}
+main .col-5 {
+  max-width: 450px;
+}
+main .col-5 h3,
+main .col-5 h4 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+main .col-5 ol li {
+  border-bottom: 1px solid #e1e1e1;
+}
+main .col-5 ol li p {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: black !important;
+}
+main .col-5 ol li p span {
+  font-weight: normal;
+}
+main .col-5 ol li a {
+  color: white;
+  background-color: #784D3C;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+}
+
+footer {
+  background-color: black;
+}
+footer .foot {
+  width: 1300px;
+  margin: 0 auto;
+  color: white;
+  padding-bottom: 20px;
+}
+footer .foot h1 {
+  font-family: "PT Sans", sans-serif;
+}
+footer .foot h1 span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+footer .foot div {
+  margin-top: 40px;
+  gap: 20px;
+}
+footer .foot a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=estilos.css.map */
