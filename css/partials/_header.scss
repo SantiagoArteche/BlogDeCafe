@@ -5,12 +5,19 @@ header {
     background-size: cover;
     height: 600px;
     color: white;
-
+    @include small{height: 400px;}
     & .head {
-        width: 1200px;
-        margin: 0 auto;
+        width: 70%;
+        margin: 0 auto;  
+        @include small{
+            width: 95%;
+        }
 
         & .headUno {
+            @include small{
+                flex-direction: column;
+            }
+            
             & h1 {
                 font-family: $fontDos;
 
@@ -29,12 +36,19 @@ header {
                 font-size: 1.1rem;
                 text-decoration: none;
                 color: white;
+
+                @include media{
+                    font-size: 0.9rem;
+                }
             }
         }
     }
 
     & .headDos {
         margin-top: 145px;
+        @include small{
+            margin-top: 70px;
+        }
 
         & h2 {
             font-family: $fontDos;
@@ -43,6 +57,9 @@ header {
 
         & p {
             font-size: medium;
+            @include small{
+                font-size: small;
+            }
         }
     }
 }

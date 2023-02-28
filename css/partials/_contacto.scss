@@ -1,6 +1,5 @@
 #contacto{
-    height: 100vh;
-    margin-bottom: 150px;
+    height: 900px;
     & .bg{
         background-image: url(../../img/contacto.jpg);
         width: 100%;
@@ -8,27 +7,60 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        @include small{
+            height: 300px;
+        }
     }
     form{
         width: 65%;
         position: absolute;
         top: 1050px;
         background-color: white;
+        @include small{
+            top: 690px;
+            width: 90%;
+        }
 
         & div{
             gap: 20px;
+            @include large{
+                gap: 30px;
+            }
+            @include small{
+                gap: 40px;
+            }
             & label{
                 width: 7%;
+            @include large{
+                width: 12%;
+            }
+            @include small{
+                width: 20%;
+            }
             }
             & input, textarea{
                 width: 93%;
+                @include large{
+                    width: 88%;
+                }
+                @include small{
+                    width: 80%;
+                }
             }
         }
-        .submit{
-            background-color: black;
-            color: white;
-            font-family: $fontDos;
-            padding: 5px 33px;
+        .sub{
+            @include media{
+                display: flex;
+                justify-content: center;
+            }
+            & .submit{
+                background-color: black;
+                color: white;
+                font-family: $fontDos;
+                padding: 5px 33px;
+                width: 150px;
+            }
         }
+        
     }
 }

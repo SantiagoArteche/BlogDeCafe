@@ -1,9 +1,26 @@
-#nosotros{
-    width: 1200px;
+#nosotros {
     
-    
-    & img{
-        height: 390px;
-        width: 580px;
+    & div{
+        @include large{
+            display: flex;
+            align-items: center;
+            flex-direction: column !important;
+            margin-bottom: 10px;
+        }
+        & img {
+            height: 390px;
+            width: 580px;
+            
+            @include large{
+                margin-bottom: 30px;
+            }
+            @include small{
+                height: 200px;
+                width: 300px;
+            }
+        }
     }
+        
+
+
 }

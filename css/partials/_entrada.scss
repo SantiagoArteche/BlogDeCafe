@@ -1,0 +1,10 @@
+#entrada{
+    & img{
+        height: 500px;
+        width: 800px;
+        @include large{
+            height: 400px;
+            width: 600px;
+        }
+    }
+}

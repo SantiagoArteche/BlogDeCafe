@@ -1,32 +1,48 @@
 footer {
 
     background-color: black;
+
     .foot {
-        width: 1200px;
+        width: 70%;
         margin: 0 auto;
         color: white;
         padding-bottom: 20px;
-        & h1 {
-            font-family: $fontDos;
 
-            & span {
-                font-family: $fontUno;
-                font-weight: 700;
+        @include small {
+            width: 95%;
+        }
+
+        & nav {
+            @include small{
+                flex-direction: column;
+            }
+            & h1 {
+                font-family: $fontDos;
+
+                & span {
+                    font-family: $fontUno;
+                    font-weight: 700;
+                }
+            }
+
+            & div {
+                margin-top: 40px;
+                gap: 20px;
+            }
+
+
+
+            & a {
+                font-size: 1.1rem;
+                text-decoration: none;
+                color: white;
+
+                @include media {
+                    font-size: 0.9rem;
+                }
             }
         }
 
-        & div {
-            margin-top: 40px;
-            gap: 20px;
-        }
-
-
-
-        & a {
-            font-size: 1.1rem;
-            text-decoration: none;
-            color: white;
-        }
     }
 
 }
