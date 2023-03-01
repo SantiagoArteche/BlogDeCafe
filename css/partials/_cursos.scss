@@ -1,11 +1,14 @@
 #cursos{
-    & .row{
+    & .curs{
         border-bottom: 1px solid #e1e1e1;
-        display: flex;
-        justify-content: center;
+        @include large{
+            display: flex;
+            flex-direction: column !important;
+            align-items: center;
+        }
         & img{
-            height: 400px;
-            width: 500px;
+            height: 395px;
+            width: 450px;
             margin-bottom: 40px;
             @include small{
                 height: 200px;
